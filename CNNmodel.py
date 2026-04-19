@@ -65,7 +65,7 @@ def preprocess_data(X, y):
 # --------------------------
 # 3️⃣ Prepare Training & Testing Data
 # --------------------------
-data_path = r"C:\\Users\\Krishna\\Documents\\miniproject\\mit-bih"  # Replace with your dataset folder
+data_path = r"C:\\Users\\Krishna\\Documents\\miniproject\\Flask_backend\\mit-bih"  # Replace with your dataset folder
 X, y = load_mitbih_data(data_path)
 X, y, label_encoder = preprocess_data(X, y)
 
