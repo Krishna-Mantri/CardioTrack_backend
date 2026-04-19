@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request, send_file
 from cardiolink import run_cardiolink_pipeline
 from flask_cors import CORS
+from dotenv import load_dotenv
+load_dotenv()
 import os
 
 app = Flask(__name__)

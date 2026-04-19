@@ -9,6 +9,8 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import os
 from supabase_config import supabase
+from dotenv import load_dotenv
+load_dotenv()
 from report_generator import generate_pdf_report
 import datetime
 
