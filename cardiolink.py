@@ -5,7 +5,7 @@ import matplotlib
 matplotlib.use('Agg')  # ✅ Fix for server (no GUI)
 import matplotlib.pyplot as plt
 
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import os
 from supabase_config import supabase
